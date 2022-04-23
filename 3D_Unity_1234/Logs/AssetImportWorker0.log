@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 3995 MB
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16319 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,192 +11,116 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Jones/Unity_123456_2022/3D_Unity_1234
+C:/Users/Appedu/Desktop/Unity_123456_2022/3D_Unity_1234
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53050
-Successfully changed project path to: C:/Jones/Unity_123456_2022/3D_Unity_1234
-C:/Jones/Unity_123456_2022/3D_Unity_1234
+63398
+Successfully changed project path to: C:/Users/Appedu/Desktop/Unity_123456_2022/3D_Unity_1234
+C:/Users/Appedu/Desktop/Unity_123456_2022/3D_Unity_1234
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 269.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Jones/Unity_123456_2022/3D_Unity_1234/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Appedu/Desktop/Unity_123456_2022/3D_Unity_1234/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 10.0]
-    Renderer: Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (ID=0x2e32)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P620 (ID=0x1cb6)
     Vendor:   
-    VRAM:     128 MB
-    Driver:   8.15.10.2702
+    VRAM:     1977 MB
+    Driver:   30.0.14.7247
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007706 seconds.
+Registered in 0.003055 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 168.37 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.087 seconds
+- Completed reload, in  0.745 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3088ms)
-		BeginReloadAssembly (361ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (2288ms)
-			LoadAssemblies (353ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (719ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (149ms)
-			SetupLoadedEditorAssemblies (919ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (169ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (483ms)
-				ProcessInitializeOnLoadMethodAttributes (120ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021880 seconds.
+Registered in 0.007581 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 167.86 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.340 seconds
+- Completed reload, in  1.419 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5344ms)
-		BeginReloadAssembly (728ms)
+	ReloadAssembly (1420ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (4376ms)
-			LoadAssemblies (512ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1740ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (211ms)
-			SetupLoadedEditorAssemblies (1560ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (431ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (168ms)
-				BeforeProcessingInitializeOnLoad (405ms)
-				ProcessInitializeOnLoadAttributes (881ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (37ms)
-				EditorAssembliesLoaded (2ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 2.73 seconds
-Refreshing native plugins compatible for Editor in 2.26 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.2 MB.
-System memory in use after: 126.4 MB.
+System memory in use before: 128.2 MB.
+System memory in use after: 128.4 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3243.
-Total: 10.115600 ms (FindLiveObjects: 1.637300 ms CreateObjectMapping: 0.524500 ms MarkObjects: 7.619700 ms  DeleteObjects: 0.329900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4_v1.22.unitypackage
-  artifactKey: Guid(3b4dc5f685f8edc4bbba6fb0c8ea39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/SimpleNaturePack_HDRP_2018.4_v1.22.unitypackage using Guid(3b4dc5f685f8edc4bbba6fb0c8ea39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b342fd704e5f49776edbb8027f5fee') in 0.188991 seconds 
-  Import took 0.230421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000957 seconds.
-  path: Assets/Mamelon.otf
-  artifactKey: Guid(786bac33ca04d024884b0f805d4bf2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mamelon.otf using Guid(786bac33ca04d024884b0f805d4bf2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b8e79a7456b0870465a573be68ac98') in 2.037637 seconds 
-  Import took 2.137041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009500 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(2695425e7aa84f142bfef5480b308ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(2695425e7aa84f142bfef5480b308ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b946eb9278b2baccd8847dc05541cf') in 0.338742 seconds 
-  Import took 0.445967 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.107582 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 10.715 seconds
-Domain Reload Profiling:
-	ReloadAssembly (10721ms)
-		BeginReloadAssembly (1602ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (102ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (547ms)
-		EndReloadAssembly (8701ms)
-			LoadAssemblies (1252ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (2807ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (256ms)
-			SetupLoadedEditorAssemblies (3443ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (656ms)
-				ProcessInitializeOnLoadAttributes (2655ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (49ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (4ms)
-			AwakeInstancesAfterBackupRestoration (174ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2703 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.7 MB.
-System memory in use after: 127.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3335.
-Total: 16.046000 ms (FindLiveObjects: 1.203900 ms CreateObjectMapping: 0.458300 ms MarkObjects: 14.240600 ms  DeleteObjects: 0.138200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 4.874400 ms (FindLiveObjects: 0.326700 ms CreateObjectMapping: 0.162600 ms MarkObjects: 4.248000 ms  DeleteObjects: 0.135400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -210,627 +134,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2745.771258 seconds.
-  path: Assets/Presets/AudioCompressedInMemory.preset
-  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4de02398cfe62c06251b0f50233ebf') in 0.212952 seconds 
-  Import took 0.249063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 514.077625 seconds.
-  path: Assets/ExampleAssets/Materials
-  artifactKey: Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials using Guid(ffd318dbb37362c4f8d87863d082b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c827434803c10ce0ff8cbab2830a63c') in 0.203505 seconds 
-  Import took 0.251680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.600835 seconds.
-  path: Assets/ExampleAssets/Models
-  artifactKey: Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models using Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148bd1374e384877c948124b2b92d031') in 0.055902 seconds 
-  Import took 0.236559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.729035 seconds.
-  path: Assets/ExampleAssets/Prefabs
-  artifactKey: Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs using Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768324c56d94b4efa7303716f65df392') in 0.160617 seconds 
-  Import took 0.225160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.680606 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Tree.tga
-  artifactKey: Guid(90e54c63e14074a4da6b84bc6c50b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Tree.tga using Guid(90e54c63e14074a4da6b84bc6c50b107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39e38f28db6fb7d12b6479868728a4a') in 1.352971 seconds 
-  Import took 1.368920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.231476 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/WindmillAtlas.tga
-  artifactKey: Guid(77805c0e965576240a9937c75bfca067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/WindmillAtlas.tga using Guid(77805c0e965576240a9937c75bfca067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1901dd9e0fd1a1a2036d2c36f693de28') in 0.258154 seconds 
-  Import took 0.287796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.868443 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Ground-02-03.jpg
-  artifactKey: Guid(d57039f35e392c144a147ea2d93dc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Ground-02-03.jpg using Guid(d57039f35e392c144a147ea2d93dc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcb80380f52c8231c0ba176b8ba901f') in 0.379913 seconds 
-  Import took 0.443477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.650382 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Materials
-  artifactKey: Guid(3abc10f3066a5cc4aa2d099cc8a24ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Materials using Guid(3abc10f3066a5cc4aa2d099cc8a24ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f81db158035e8bd7f9ae3b103a9e5f') in 0.043296 seconds 
-  Import took 0.291445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.126548 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Medieval_Windmill.FBX
-  artifactKey: Guid(b4985f90ce1d8bc46bdeb800679c7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Medieval_Windmill.FBX using Guid(b4985f90ce1d8bc46bdeb800679c7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a3492976d3c5deaedba84c0e4d3b96') in 3.761977 seconds 
-  Import took 3.799670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.749852 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs
-  artifactKey: Guid(0e1c210995a1cde47b1d0e59373d665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs using Guid(0e1c210995a1cde47b1d0e59373d665d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ada94d4f6c8d24f0982c4d31c8e44c') in 0.052508 seconds 
-  Import took 0.160293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.205936 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats
-  artifactKey: Guid(c4b8f48cc3200e54288d065191bb01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats using Guid(c4b8f48cc3200e54288d065191bb01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2adb074ec965924a8d28faa56e01c2') in 0.107501 seconds 
-  Import took 0.145593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.906294 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Lineup.unity
-  artifactKey: Guid(bc91ce5989894024ba8aab4e87fc6402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Lineup.unity using Guid(bc91ce5989894024ba8aab4e87fc6402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d413bdcd6f0359957985bffa32aa7') in 0.055193 seconds 
-  Import took 0.071526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.402297 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/LineupSettings.lighting
-  artifactKey: Guid(6f084fec62d7cf24e82b3573cb046f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/LineupSettings.lighting using Guid(6f084fec62d7cf24e82b3573cb046f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '6ca699cd17e3064c9c15d85ae56a80a1') in 0.037963 seconds 
-  Import took 0.052587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.535427 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Windmill.unity
-  artifactKey: Guid(87d79f0944b545344bc80f178da2e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Windmill.unity using Guid(87d79f0944b545344bc80f178da2e63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1d3a4d1ffa61dd36033b0448b3ecd5') in 0.053188 seconds 
-  Import took 0.252552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.895399 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/WindmillSettings.lighting
-  artifactKey: Guid(3d7d66fd79463a34983276ec05a2ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/WindmillSettings.lighting using Guid(3d7d66fd79463a34983276ec05a2ba43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '38b480be1369e4be49c911b279ed0af9') in 0.071831 seconds 
-  Import took 0.116728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 206.945459 seconds.
-  path: Assets/開始場景練習.unity
-  artifactKey: Guid(37a2a2503c8e550469f9f3f3433b85a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/開始場景練習.unity using Guid(37a2a2503c8e550469f9f3f3433b85a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9172cb71c86b7be5d41a2f0ffb4eb8cd') in 0.102438 seconds 
-  Import took 0.222074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 430.779574 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Branch_01.prefab
-  artifactKey: Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Branch_01.prefab using Guid(b9de24523a11d714db3851b5f0f9d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71852ed9fff92964fb761e5a781282b6') in 1.164616 seconds 
-  Import took 1.222065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000492 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs/Medieval_Windmill.prefab
-  artifactKey: Guid(6d9ffac09535f23449762fd769a551d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs/Medieval_Windmill.prefab using Guid(6d9ffac09535f23449762fd769a551d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4256a7cf239a655d1e147c66981bbb32') in 0.791768 seconds 
-  Import took 0.848815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/SimpleNaturePack/Models/Rock_02.fbx
-  artifactKey: Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Rock_02.fbx using Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca065e3684179b4aa2b340d1aef33141') in 1.182548 seconds 
-  Import took 1.420522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000627 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Grass_01.prefab
-  artifactKey: Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Grass_01.prefab using Guid(f1fc5bb90ac285e4486771552d63bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2b296745aaa76f45c96775668c070b') in 0.450840 seconds 
-  Import took 0.551019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/SimpleNaturePack/Models/Mushroom_01.fbx
-  artifactKey: Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Mushroom_01.fbx using Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3305ac47f28f8367dbaf694c3bb8ef') in 0.765727 seconds 
-  Import took 0.791218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000777 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Rock_04.prefab
-  artifactKey: Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Rock_04.prefab using Guid(f02116c209ecd9e488fc4d2cd8996133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55eefc2e40927d4398a6bd611ad8a91') in 0.288745 seconds 
-  Import took 0.422763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000589 seconds.
-  path: Assets/SimpleNaturePack/Models/Ground_02.fbx
-  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d75d793e84a7ff929e18331c49b9a26') in 0.356543 seconds 
-  Import took 0.378952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/SimpleNaturePack/Models/Rock_05.fbx
-  artifactKey: Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Rock_05.fbx using Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738bddcb4bf727fe7386202c0952045') in 0.415938 seconds 
-  Import took 0.525110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011956 seconds.
-  path: Assets/SimpleNaturePack/Models/Rock_04.fbx
-  artifactKey: Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Rock_04.fbx using Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35344efd7643522a308e708b58a9123') in 0.281601 seconds 
-  Import took 0.388515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000874 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab
-  artifactKey: Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Mushroom_01.prefab using Guid(ff62b58c5a9ea164fa8ddf8038e10cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e5a7587c81e3ff9631f32946b219d3') in 0.429781 seconds 
-  Import took 0.481407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Tree_02.prefab
-  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Tree_02.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5424598bd5c5488a02664561229b311e') in 0.452565 seconds 
-  Import took 0.538790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/SimpleNaturePack/Models/Tree_02.fbx
-  artifactKey: Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Tree_02.fbx using Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b3946d6e3f1fa246b05e0e64d1416a') in 0.621461 seconds 
-  Import took 0.682589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000680 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Tree.FBX
-  artifactKey: Guid(7a577f3431b438645ab0d06d70116b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Fbxs_Textures_Mats/Tree.FBX using Guid(7a577f3431b438645ab0d06d70116b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffef3455069e5e70262ba53756e4cb4') in 0.603135 seconds 
-  Import took 0.675526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000830 seconds.
-  path: Assets/SimpleNaturePack/Models/Tree_01.fbx
-  artifactKey: Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Tree_01.fbx using Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d16d66f8396960dc9d52367197bdc1') in 0.452047 seconds 
-  Import took 0.473781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/SimpleNaturePack/Models/Ground_03.fbx
-  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587c1dffed178113d21050472bd9023f') in 0.387189 seconds 
-  Import took 0.424667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001338 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Ground_03.prefab
-  artifactKey: Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Ground_03.prefab using Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574a6b346123cc7646f02acd94173cb') in 0.642714 seconds 
-  Import took 0.698546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Bush_03.prefab
-  artifactKey: Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Bush_03.prefab using Guid(34d3f526198dae440bb2ce6005d86055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cde135a0a1d9d50b4491b2d3ee2901') in 0.375187 seconds 
-  Import took 0.422221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab
-  artifactKey: Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab using Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f09f72478635ed498676f2fd1892a6') in 0.352865 seconds 
-  Import took 0.399984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001476 seconds.
-  path: Assets/SimpleNaturePack/Models/Stump_01.fbx
-  artifactKey: Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Stump_01.fbx using Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fadb3c9bdd57c1c6511113031a8caf') in 0.507663 seconds 
-  Import took 0.681899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000977 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Tree_05.prefab
-  artifactKey: Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Tree_05.prefab using Guid(60f79905accf3b24fa0114b941f1aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34346c306af50915225a14b8e6986f21') in 0.512254 seconds 
-  Import took 0.757051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003375 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Tree_04.prefab
-  artifactKey: Guid(f0c16f0ea935ea64297ca1d4d55d9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Tree_04.prefab using Guid(f0c16f0ea935ea64297ca1d4d55d9746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b914b85a4d3d920c6df45a6860c23119') in 0.376742 seconds 
-  Import took 0.475251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000635 seconds.
-  path: Assets/SimpleNaturePack/Models/Tree_04.fbx
-  artifactKey: Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Tree_04.fbx using Guid(83e8d2542718a2e49a73d71c3a5fc685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21996b9db69a6234f2e7f843322e2845') in 0.504541 seconds 
-  Import took 0.568643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/SimpleNaturePack/Models/Tree_05.fbx
-  artifactKey: Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Tree_05.fbx using Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccf9c497b2d3002383d17218e5026d8') in 0.431200 seconds 
-  Import took 0.495033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/SimpleNaturePack/Models/Tree_03.fbx
-  artifactKey: Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Tree_03.fbx using Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2d2c483f020dc637d695c73825cbda') in 0.538102 seconds 
-  Import took 0.582921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000549 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab
-  artifactKey: Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Mushroom_02.prefab using Guid(494f6d43e170e9145bc7865d243ee00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38898fe7dfa5790f771ed0598a1c8ede') in 0.741043 seconds 
-  Import took 0.869127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/SimpleNaturePack/Models/Mushroom_02.fbx
-  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f99c4fe8427aa24b7f51c7b3449acd6') in 0.463972 seconds 
-  Import took 0.508767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/SimpleNaturePack/Models/Grass_02.fbx
-  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ef75ec5644cc686b7a2acaccc2153d') in 0.131599 seconds 
-  Import took 0.566262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000709 seconds.
-  path: Assets/SimpleNaturePack/Models/Ground_01.fbx
-  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda162de1720d8295e0ac1ce88b446a') in 0.161226 seconds 
-  Import took 0.452117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000621 seconds.
-  path: Assets/ExampleAssets/Prefabs/Props.prefab
-  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23563b599c648e10e5cef0a87a160110') in 7.776206 seconds 
-  Import took 7.912970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011449 seconds.
-  path: Assets/SimpleNaturePack/Models/Bush_02.fbx
-  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9b390cc49d3d852e74c93f56a9dcb2') in 0.626623 seconds 
-  Import took 0.717775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Grass_02.prefab
-  artifactKey: Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Grass_02.prefab using Guid(ffbddc4ef9676cc419e81e06aaa836d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751818656357010ee7d432f60c275a27') in 0.459742 seconds 
-  Import took 0.520769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
-  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4f4343592befdda41ea9cb78b9eeab') in 0.461400 seconds 
-  Import took 0.488124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003146 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
-  artifactKey: Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Rock_03.prefab using Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b8ffd4d4d05d09eca168bb0b32e2ab') in 0.227058 seconds 
-  Import took 0.400485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Stump_01.prefab
-  artifactKey: Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Stump_01.prefab using Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4deaee93419979fc5a18ea560e787dd') in 0.277240 seconds 
-  Import took 0.349596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Rock_01.prefab
-  artifactKey: Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Rock_01.prefab using Guid(c6308cb7062fac34e8e50600086b12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ce4e627c86a20be75f0b52deeb31df') in 0.317720 seconds 
-  Import took 0.569034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001576 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Rock_05.prefab
-  artifactKey: Guid(a778b631c6253a04899cb31bad047c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Rock_05.prefab using Guid(a778b631c6253a04899cb31bad047c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8059a8a61feb539bcac4e2b06035f2c4') in 0.602087 seconds 
-  Import took 0.677652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Tree_03.prefab
-  artifactKey: Guid(c60edd51c065ceb46b345849a03bc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Tree_03.prefab using Guid(c60edd51c065ceb46b345849a03bc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d48d742539952ef033746d45816ea32') in 0.275290 seconds 
-  Import took 0.347983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000751 seconds.
-  path: Assets/SimpleNaturePack/Models/Grass_01.fbx
-  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d26dadd6f4da117afe389ff81e72fb1') in 0.271217 seconds 
-  Import took 0.339339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Ground_02.prefab
-  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f7cd4c9b13b85705695b04a87a8051') in 0.329511 seconds 
-  Import took 0.382335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081620 seconds.
-  path: Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs/Tree.prefab
-  artifactKey: Guid(586534c0f9a745b4086c007888993b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs/Tree.prefab using Guid(586534c0f9a745b4086c007888993b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce90f43913a0aa79055d927bac98d82') in 0.326464 seconds 
-  Import took 0.348958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000831 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab
-  artifactKey: Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab using Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6ecad9bcfc240a561a87039a3778ee') in 0.938751 seconds 
-  Import took 1.014108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/SimpleNaturePack/Prefabs/Bush_02.prefab
-  artifactKey: Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleNaturePack/Prefabs/Bush_02.prefab using Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e54a2573d73bd13d980878146874b98') in 1.049844 seconds 
-  Import took 1.136307 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.206976 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 17.016 seconds
-Domain Reload Profiling:
-	ReloadAssembly (17018ms)
-		BeginReloadAssembly (8484ms)
-			ExecutionOrderSort (19ms)
-			DisableScriptedObjects (694ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (6818ms)
-		EndReloadAssembly (8123ms)
-			LoadAssemblies (2634ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2200ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (246ms)
-			SetupLoadedEditorAssemblies (1745ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (454ms)
-				ProcessInitializeOnLoadAttributes (1165ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
-				AfterProcessingInitializeOnLoad (28ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (64ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2697 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.6 MB.
-System memory in use after: 126.8 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3378.
-Total: 9.538900 ms (FindLiveObjects: 0.865500 ms CreateObjectMapping: 0.435300 ms MarkObjects: 8.076200 ms  DeleteObjects: 0.157800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4694.805536 seconds.
-  path: Assets/Ground textures pack/Grass 01
-  artifactKey: Guid(254442df7235466489c927217b4daa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 01 using Guid(254442df7235466489c927217b4daa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b727fede6066bb6aecb0d99dbf3ba5') in 9.532285 seconds 
-  Import took 27.393238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014171 seconds.
   path: Assets/Ground textures pack/Grass 01/normal.tga
   artifactKey: Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 01/normal.tga using Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe259aacec74e32aad56e7103a1e3979') in 16.189037 seconds 
-  Import took 16.521292 seconds .
+Start importing Assets/Ground textures pack/Grass 01/normal.tga using Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477cdcfc27534e214502fd199ba3d932') in 0.136634 seconds 
+  Import took 0.142003 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004837 seconds.
+  Time since last request: 0.000218 seconds.
   path: Assets/Ground textures pack/Grass 01/diffuse.tga
   artifactKey: Guid(a51044dfe95257548b466bc35528b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 01/diffuse.tga using Guid(a51044dfe95257548b466bc35528b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a16307f86af1545e48aa244fe0b7eca') in 1.024288 seconds 
-  Import took 1.155570 seconds .
+Start importing Assets/Ground textures pack/Grass 01/diffuse.tga using Guid(a51044dfe95257548b466bc35528b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b68458f5f1bd07348b25a0fe72d86da') in 0.011964 seconds 
+  Import took 0.016669 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.416538 seconds.
-  path: Assets/Ground textures pack/Grass 02/diffuse.tga
-  artifactKey: Guid(d902345b12dd31e4a83f0c375a540341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 02/diffuse.tga using Guid(d902345b12dd31e4a83f0c375a540341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33ef4418182c9a1153ee1262061d8f8') in 0.260359 seconds 
-  Import took 0.301402 seconds .
+  Time since last request: 15.236115 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a336f57497f2e975a9a637c788dbb') in 0.266270 seconds 
+  Import took 0.270710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.085188 seconds.
-  path: Assets/Ground textures pack/Grass 03/diffuse.tga
-  artifactKey: Guid(e9866699a4ddce642b7da4aeaa74d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 03/diffuse.tga using Guid(e9866699a4ddce642b7da4aeaa74d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9cc8ed9a5d162dbc129357ec293601') in 0.344476 seconds 
-  Import took 0.358866 seconds .
+  Time since last request: 0.823443 seconds.
+  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960d8cca30832371a6796bf5f3c86366') in 0.026465 seconds 
+  Import took 0.031649 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.099902 seconds.
-  path: Assets/Ground textures pack/Grass 04/diffuse.tga
-  artifactKey: Guid(e939889a01ba73f4c9f41bb8d6d79d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Grass 04/diffuse.tga using Guid(e939889a01ba73f4c9f41bb8d6d79d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b317090967f1c97318179571a646bc96') in 0.119836 seconds 
-  Import took 0.178260 seconds .
+  Time since last request: 0.992103 seconds.
+  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e76e6fd8da9e87599faf346ac753bd') in 0.321970 seconds 
+  Import took 0.326281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.771140 seconds.
-  path: Assets/Ground textures pack/Ground 01/diffuse.tga
-  artifactKey: Guid(eafd0beb9c624d34f812be7d14134c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground 01/diffuse.tga using Guid(eafd0beb9c624d34f812be7d14134c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2953573d762fea3a40884b86203ef11') in 0.271687 seconds 
-  Import took 0.286785 seconds .
+  Time since last request: 2.149542 seconds.
+  path: Assets/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa726aedc13a1fcad81fa4c671bf934f') in 0.022083 seconds 
+  Import took 0.026736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.430241 seconds.
-  path: Assets/Ground textures pack/Ground 02/diffuse.tga
-  artifactKey: Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground 02/diffuse.tga using Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029518dc0deda9da3bb923fcf4bc5987') in 0.255439 seconds 
-  Import took 0.345699 seconds .
+  Time since last request: 1.565154 seconds.
+  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6d2420235b81f18b1d2a35be8b553e') in 0.031425 seconds 
+  Import took 0.036078 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.645376 seconds.
-  path: Assets/Ground textures pack/Ground 02/normal.tga
-  artifactKey: Guid(bf5346a62bd7d0b43a30d8188cf4163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground 02/normal.tga using Guid(bf5346a62bd7d0b43a30d8188cf4163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b79b5535ea04c611874e17c5e5c93') in 0.544977 seconds 
-  Import took 0.699595 seconds .
+  Time since last request: 0.443636 seconds.
+  path: Assets/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd237b144b03060b756b4e2309f36f8') in 0.025669 seconds 
+  Import took 0.030788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.699919 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(2695425e7aa84f142bfef5480b308ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(2695425e7aa84f142bfef5480b308ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bcc0d4de2bf512acaa92397617f49f') in 0.524083 seconds 
-  Import took 0.584557 seconds .
+  Time since last request: 0.425486 seconds.
+  path: Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff753a3d607ad0b6b80fa6fe182f4e5') in 0.105400 seconds 
+  Import took 0.109726 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(5e434f4f81401a741a593093a6e4d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(5e434f4f81401a741a593093a6e4d078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d997ac0a5c3cf3c550f0e1d3a891036') in 0.231144 seconds 
-  Import took 0.308980 seconds .
+  Time since last request: 0.489953 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d46bd41085d5b7f386e299f6e96d0b') in 0.106908 seconds 
+  Import took 0.112364 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1992.508378 seconds.
-  path: Assets/Ground textures pack/Ground 02/preview.jpg
-  artifactKey: Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground 02/preview.jpg using Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c51988b7465f1d62a105c68ec17098e') in 0.610184 seconds 
-  Import took 0.819414 seconds .
+  Time since last request: 0.659607 seconds.
+  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171e4c309d05ad5587a5190352fca0ff') in 0.102516 seconds 
+  Import took 0.106819 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 369.284414 seconds.
-  path: Assets/Ground textures pack/Ground 02/preview.jpg
-  artifactKey: Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ground textures pack/Ground 02/preview.jpg using Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bce7759b9fde3cad5e347a767a6018') in 4.313859 seconds 
-  Import took 4.388177 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
